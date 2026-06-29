@@ -1,128 +1,130 @@
+# China-International-College-Students-Innovation-Competition-2026---CareFlow-OS
+
 # 🩺 CareFlow OS
 
-> **Inteligência Artificial & Equidade na Saúde Global**
+> **Artificial Intelligence & Global Health Equity**
 
-**Categoria:** Grupo de Ideias para Graduandos (FPS & CESAR School)
-
----
-
-# 📋 Visão Geral
-
-O **CareFlow OS** é um Sistema de Apoio à Decisão Clínica (Clinical Decision Support System - CDSS) leve e baseado em nuvem, desenvolvido para reduzir o gap de equidade global no atendimento pediátrico.
-
-A pneumonia pediátrica permanece como uma das principais causas de mortalidade em crianças menores de cinco anos no mundo. O CareFlow OS utiliza Inteligência Artificial para oferecer uma triagem inteligente, aumentando a precisão diagnóstica independentemente da localização geográfica e fortalecendo a radiologia comunitária em regiões com infraestrutura limitada.
-
-O sistema adota um modelo **Zero Hardware CapEx**, eliminando a necessidade de investimentos em servidores locais. Dessa forma, infraestruturas analógicas podem ser transformadas em unidades conectadas à nuvem, modernizando o fluxo clínico com baixo custo de implantação.
+**Category:** Undergraduate Ideas Group (FPS & CESAR School)
 
 ---
 
-# ⚡ O Problema
+# 📋 Overview
 
-## Centros Urbanos
+**CareFlow OS** is a lightweight, cloud-based Clinical Decision Support System (CDSS) designed to reduce the global healthcare equity gap in pediatric care.
 
-* Superlotação de hospitais e leitos.
-* Sobrecarga das equipes de triagem.
-* Fadiga cognitiva e aumento do risco de erros diagnósticos.
+Pediatric pneumonia remains one of the leading causes of death among children under five worldwide. CareFlow OS leverages Artificial Intelligence to provide intelligent triage, improving diagnostic accuracy regardless of geographic location while strengthening community radiology services in regions with limited healthcare infrastructure.
 
-## Atenção Primária Remota
-
-* Alta variabilidade na interpretação de exames.
-* Escassez de médicos radiologistas.
-* Atraso em diagnósticos e tratamentos críticos.
-
-## Contexto Climático Global
-
-Regiões vulneráveis e localidades sujeitas a invernos rigorosos, como a província de Heilongjiang (China), enfrentam picos sazonais de doenças respiratórias que frequentemente sobrecarregam os sistemas de saúde.
+The platform follows a **Zero Hardware CapEx** model, eliminating the need for investments in local servers. This approach enables traditional healthcare facilities to become cloud-connected nodes, modernizing clinical workflows with minimal implementation costs.
 
 ---
 
-# 💡 Nossa Solução
+# ⚡ The Challenge
 
-O CareFlow OS disponibiliza uma plataforma web segura para auxiliar profissionais de saúde durante a triagem clínica.
+## Urban Healthcare Centers
 
-## Fluxo de Funcionamento
+* Hospital overcrowding and bed shortages.
+* Increased workload for triage teams.
+* Cognitive fatigue and a higher risk of diagnostic errors.
 
-### 1. Ingestão
+## Remote Primary Healthcare
 
-A equipe médica exporta a radiografia diretamente do sistema PACS para a plataforma web.
+* High variability in image interpretation.
+* Shortage of radiologists and specialists.
+* Delays in diagnosis and life-saving treatments.
 
-### 2. Processamento
+## Global Climate Context
 
-A imagem é enviada para um algoritmo em nuvem desenvolvido inteiramente com tecnologias de código aberto em Python.
-
-O modelo foi treinado para minimizar vieses relacionados a:
-
-* localização geográfica;
-* intensidade dos exames de raio-X;
-* diferentes fabricantes de equipamentos;
-* variações técnicas entre hospitais.
-
-### 3. Resultado
-
-O sistema retorna em tempo real:
-
-* mapas de calor explicativos (Explainable AI);
-* índice de probabilidade de pneumonia;
-* apoio à decisão para enfermeiros e médicos generalistas.
+Vulnerable regions and areas experiencing harsh winters, such as Heilongjiang Province (China), often face seasonal respiratory disease outbreaks that overwhelm frontline healthcare services.
 
 ---
 
-# 🌍 Pilares de Impacto Social
+# 💡 Our Solution
 
-## 👩‍⚕️ Saúde e Bem-Estar
+CareFlow OS provides a secure web platform that assists healthcare professionals during clinical triage.
 
-* Redução da mortalidade infantil por pneumonia.
-* Apoio à tomada de decisão clínica.
-* Diminuição do burnout das equipes médicas.
+## Workflow
 
-## 💼 Geração de Empregos
+### 1. Image Acquisition
 
-* Capacitação técnica de profissionais da enfermagem.
-* Criação de oportunidades em Engenharia de Dados.
-* Expansão de vagas em suporte técnico para HealthTechs.
+Healthcare professionals export chest X-ray images directly from the local PACS system to the CareFlow OS web platform.
 
-## 🌱 Sustentabilidade
+### 2. AI Processing
 
-O processamento centralizado em nuvem reduz significativamente:
+The uploaded image is processed by a cloud-based AI algorithm developed entirely using open-source Python technologies.
 
-* consumo energético;
-* necessidade de servidores locais;
-* pegada de carbono da infraestrutura computacional.
+The model has been trained to minimize biases related to:
+
+* Geographic location;
+* X-ray intensity variations;
+* Different imaging equipment manufacturers;
+* Technical differences among healthcare facilities.
+
+### 3. Clinical Output
+
+The platform provides real-time results, including:
+
+* Explainable AI heatmaps;
+* Pneumonia probability scores;
+* Decision support for nurses and general practitioners.
 
 ---
 
-# 🛠️ Tecnologias Utilizadas
+# 🌍 Social Impact
+
+## 👩‍⚕️ Health & Well-being
+
+* Reduction of pediatric pneumonia mortality.
+* Support for clinical decision-making.
+* Mitigation of healthcare professional burnout.
+
+## 💼 Job Creation
+
+* Technical training for frontline nursing professionals.
+* Creation of opportunities in Data Engineering.
+* Expansion of regional technical support positions for HealthTech companies.
+
+## 🌱 Sustainability
+
+Centralized cloud processing significantly reduces:
+
+* Energy consumption;
+* Dependence on local servers;
+* Carbon footprint associated with healthcare computing infrastructure.
+
+---
+
+# 🛠️ Technologies
 
 * HTML5
 * CSS3
-* Python (IA)
-* Computação em Nuvem
-* Inteligência Artificial
-* Explainable AI (Mapas de Calor)
+* Python (Artificial Intelligence)
+* Cloud Computing
+* Artificial Intelligence
+* Explainable AI (Heatmaps)
 * PACS Integration
 
 ---
 
-# 📁 Estrutura do Projeto
+# 📁 Exhibition Website Structure
 
 ```text
 CareFlow-OS/
 │
-├── index.html          # Estrutura principal da aplicação
+├── index.html          # Main application structure
 │
 ├── css/
-│   └── style.css       # Estilos, Design System e Responsividade
+│   └── style.css       # Styles, Design System and Responsiveness
 │
 └── assets/
-    ├── care.ico        # Favicon
-    └── ilus.png        # Mockup da interface
+    ├── care.ico        # Website favicon
+    └── ilus.png        # Application interface mockup
 ```
 
 ---
 
-# 👥 Equipe
+# 👥 Team
 
-Projeto idealizado por estudantes da **Faculdade Pernambucana de Saúde (FPS)** e **CESAR School**, unindo conhecimentos em saúde, tecnologia e inovação para promover soluções voltadas à cooperação internacional.
+CareFlow OS is an academic project created by undergraduate students from **Faculdade Pernambucana de Saúde (FPS)** and **CESAR School**, bringing together expertise in healthcare, technology, and innovation to promote international collaboration.
 
 * Allysson Wallace
 * Luann Flor
@@ -132,43 +134,43 @@ Projeto idealizado por estudantes da **Faculdade Pernambucana de Saúde (FPS)** 
 
 ---
 
-# 🚀 Como Executar Localmente
+# 🚀 Getting Started
 
-1. Clone ou faça o download deste repositório.
+1. Clone or download this repository.
 
 ```bash
-git clone <url-do-repositorio>
+git clone <repository-url>
 ```
 
-2. Certifique-se de que a estrutura de pastas permaneça igual à apresentada acima.
+2. Ensure the project folder structure matches the one shown above.
 
-3. Abra o arquivo `index.html` em qualquer navegador moderno:
+3. Open the `index.html` file in any modern web browser:
 
 * Google Chrome
 * Microsoft Edge
 * Mozilla Firefox
 * Safari
 
-## 💻 Desenvolvimento
+## 💻 Development
 
-Para uma experiência de desenvolvimento mais produtiva, recomenda-se utilizar a extensão **Live Server** no Visual Studio Code.
+For a better development experience, it is recommended to use the **Live Server** extension in Visual Studio Code.
 
-Após instalada:
+After installing the extension:
 
-* Clique com o botão direito em `index.html`;
-* Selecione **Open with Live Server**.
-
----
-
-# 🎯 Objetivo
-
-O CareFlow OS busca democratizar o acesso ao suporte inteligente ao diagnóstico, contribuindo para reduzir desigualdades em saúde por meio de tecnologias abertas, escaláveis e acessíveis.
+* Right-click on `index.html`;
+* Select **Open with Live Server**.
 
 ---
 
-# 📄 Licença
+# 🎯 Project Goal
 
-Projeto acadêmico desenvolvido para fins educacionais e de pesquisa.
+CareFlow OS aims to democratize access to AI-powered clinical decision support, helping reduce healthcare inequalities through open, scalable, and accessible technologies.
+
+---
+
+# 📄 License
+
+Academic project developed for educational and research purposes.
 
 ---
 
@@ -176,7 +178,6 @@ Projeto acadêmico desenvolvido para fins educacionais e de pesquisa.
 
 **© 2026 CareFlow OS**
 
-*Solução Global de Equidade Digital em Saúde.*
+*Global Digital Health Equity Solution.*
 
 </div>
-# China-International-College-Students-Innovation-Competition-2026---CareFlow-OS
