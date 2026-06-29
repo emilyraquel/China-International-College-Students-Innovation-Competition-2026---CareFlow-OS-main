@@ -124,11 +124,11 @@ CareFlow-OS/
 
 CareFlow OS is an academic project created by undergraduate students from **Faculdade Pernambucana de Saúde (FPS)** and **CESAR School**, bringing together expertise in healthcare, technology, and innovation to promote international collaboration.
 
-* Allysson Wallace
-* Luann Flor
-* Gabriela Rosa
-* Mayara Serafim
-* Emily Raquel
+* Allysson Wallace allysson.zazar09@gmail.com
+* Luann Flor lgfas@cesar.school
+* Gabriela Rosa gabrielarosa_silva@hotmail.com
+* Mayara Serafim mayaraserafim2005@gmail.com
+* Emily Raquel emilymlins22@gmail.com
 
 ---
 
