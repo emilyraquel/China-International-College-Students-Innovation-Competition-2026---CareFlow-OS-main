@@ -1,5 +1,3 @@
-# China-International-College-Students-Innovation-Competition-2026---CareFlow-OS
-
 # 🩺 CareFlow OS
 
 > **Artificial Intelligence & Global Health Equity**
